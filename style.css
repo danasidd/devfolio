@@ -103,13 +103,13 @@
   ===================*/
   
   .link {
-    color: var(--clr-primary);
+    color: #F0C146;
     padding: 0 0 0.3em 0;
     position: relative;
   }
   
   .link:hover {
-    color: var(--clr-primary);
+    color: #F0C146;
   }
   
   .link::before {
@@ -119,7 +119,7 @@
     height: 0.2em;
     position: absolute;
     bottom: 0;
-    background-color: var(--clr-primary);
+    background-color: #F0C146;
     transition: width 0.2s ease-in;
   }
   
@@ -149,8 +149,8 @@
   }
   
   .btn--outline {
-    color: var(--clr-primary);
-    border: 2px solid var(--clr-primary);
+    color: #F0C146;
+    border: 2px solid #F0C146;
     position: relative;
     overflow: hidden;
     z-index: 1;
@@ -158,13 +158,13 @@
   
   .btn--outline:focus,
   .btn--outline:hover {
-    color: var(--clr-bg);
+    color: #ffff;
   }
   
   .btn--outline:before {
     content: "";
     position: absolute;
-    background-color: var(--clr-primary);
+    background-color: #F0C146;
     right: 100%;
     bottom: 0;
     left: 0;
@@ -256,7 +256,7 @@
   }
   
   .about__name {
-    color: var(--clr-primary);
+    color: #F0C146;
   }
   
   .about__role {
